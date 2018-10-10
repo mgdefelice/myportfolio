@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Welcome to my Portfolio</title>
+    <title>View My Work</title>
 </head>
 
-<body id="bg-img">
+<body>
     <header>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -24,7 +24,7 @@
                 <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link">
                         Home
                     </a>
@@ -34,7 +34,7 @@
                         About Me
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="work.html" class="nav-link">
                         My Work
                     </a>
@@ -47,31 +47,73 @@
             </ul>
         </nav>
     </header>
-    <main id="home">
+
+    <main id="work">
         <h1 class="lg-heading">
-            Marcello <span class="text-secondary">DeFelice</span>
+            My<span class="text-secondary"> Work</span>
         </h1>
         <h2 class="sm-heading">
-            Web Developer, Programmer, Designer, & Self Taught
+            Check out some of my projects...
         </h2>
-        <div class="icons">
-            <a href="https://github.com/mgdefelice">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://www.facebook.com/mdefelice">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/marcello-defelice-45050864">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://stackoverflow.com/users/10292733/">
-                <i class="fab fa-stack-overflow fa-2x"></i>
-            </a>
-            <a href="http://www.piedpiper.com/">
-                <i class="fab fa-pied-piper fa-2x"></i>
-            </a>
+        <div class="projects">
+            <div class="item">
+                <a href="https://codepen.io/mdefelice/pen/GYWWMK">
+                    <img src="../img/projects/tribute-page.jpg" alt="projects">
+                </a>
+                <a href="https://codepen.io/mdefelice/pen/GYWWMK" class="btn-light">
+                    <i class="fas fa-eye"></i> Codepen
+                </a>
+                <a href="https://github.com/mgdefelice/tributepage.git" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://codepen.io/mdefelice/pen/OoPmdN">
+                    <img src="../img/projects/Survey_form_page.jpg" alt="projects">
+                </a>
+                <a href="https://codepen.io/mdefelice/pen/OoPmdN" class="btn-light">
+                    <i class="fas fa-eye"></i> Codepen
+                </a>
+                <a href="https://github.com/mgdefelice/surveyform.git" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://codepen.io/mdefelice/pen/PdBOvW">
+                    <img src="../img/projects/card_counter_js.jpg" alt="projects">
+                </a>
+                <a href="https://codepen.io/mdefelice/pen/PdBOvW" class="btn-light">
+                    <i class="fas fa-eye"></i> Codepen
+                </a>
+                <a href="#!" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://codepen.io/mdefelice/pen/JaVWoR">
+                    <img src="../img/projects/product-page.jpg" alt="projects">
+                </a>
+                <a href="https://codepen.io/mdefelice/pen/JaVWoR" class="btn-light">
+                    <i class="fas fa-eye"></i> Codepen
+                </a>
+                <a href="#" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
         </div>
     </main>
+
+    <footer id="main-footer">
+        <div class="footer-icons">
+            <i class="fab fa-html5 fa-2x"></i>
+            <i class="fas fa-code fa-2x"></i>
+            <i class="fab fa-css3 fa-2x"></i>
+            <i class="fab fa-js fa-2x"></i>
+            <i class="fab fa-sass fa-2x"></i>
+        </div>
+        Copyright &copy; 2018
+    </footer>
+
     <script src="js/main.js"></script>
 </body>
 
